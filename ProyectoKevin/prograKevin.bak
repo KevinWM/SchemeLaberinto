@@ -1,0 +1,7 @@
+;__________________________________ventana de juego____________.
+(define ventana (new frame% [label "Tablero"]
+                     [width 100]  
+                     [height 100]
+                     [x 250]
+                     [y 100]
+                     [style '(no-resize-border)]))
